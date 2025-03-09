@@ -14,3 +14,163 @@
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
+
+# Creado por https://www.toptal.com/developers/gitignore/api/linux,node
+# Editar en https://www.toptal.com/developers/gitignore?templates=linux,node
+
+### Linux ###
+*~
+
+# archivos temporales que se pueden crear si un proceso aún tiene abierto el identificador de un archivo eliminado
+.fusible_oculto*
+
+# Preferencias del directorio de KDE
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él
+.nfs*
+
+### Nodo ###
+# Registros
+registros
+*.registro
+Registro de depuración de npm
+registro de depuración de hilo*
+error de hilo.log*
+archivo lerna-debug.log*
+.pnpm-debug.log*
+
+# Informes de diagnóstico (https://nodejs.org/api/report.html)
+informe.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Datos de tiempo de ejecución
+pids
+*.pid
+*.semilla
+*.pid.bloqueo
+
+# Directorio para bibliotecas instrumentadas generadas por jscoverage/JSCover
+lib-cov
+
+# Directorio de cobertura utilizado por herramientas como Estambul
+cobertura
+*.lcov
+
+#Cobertura de pruebas de Nueva York
+Salida .nyc
+
+# Almacenamiento intermedio de Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.gruñido
+
+# Directorio de dependencias de Bower (https://bower.io/)
+componentes de bower
+
+# configuración de node-waf
+.bloqueo-wscript
+
+# Complementos binarios compilados (https://nodejs.org/api/addons.html)
+construir/lanzar
+
+# Directorios de dependencia
+módulos_de_nodo/
+paquetes jspm/
+
+# Directorio de dependencias de Snowpack (https://snowpack.dev/)
+módulos_web/
+
+# Caché de TypeScript
+*.tsbuildinfo
+
+# Directorio de caché npm opcional
+.npm
+
+# Caché eslint opcional
+.eslintcache
+
+# Caché de estilo opcional
+.stylelintcache
+
+# Caché de micropaquetes
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Historial REPL opcional
+Historial de respuestas de nodo .node
+
+# Salida de 'npm pack'
+*.tgz
+
+# Archivo de integridad del hilo
+.integridad del hilo
+
+# Archivos de variables de entorno dotenv
+.env
+.env.desarrollo.local
+.env.prueba.local
+.env.producción.local
+.env.local
+
+# caché de paquetes empaquetados (https://parceljs.org/)
+.cache
+.paquete-cache
+
+# Salida de la compilación de Next.js
+.próximo
+afuera
+
+# Creación y generación de salida de Nuxt.js
+.nuxt
+distribución
+
+# Archivos de Gatsby
+.cache/
+# Comenta en la línea pública si tu proyecto usa Gatsby y no Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# Salida de compilación de vuepress
+.vuepress/dist
+
+# Directorio temporal y de caché de vuepress v2.x
+.temperatura
+
+# Caché de Docusaurus y archivos generados
+.docusaurus
+
+# Directorios sin servidor
+.sin servidor/
+
+# Caché de FuseBox
+.caja de fusibles/
+
+# Archivos locales de DynamoDB
+.dynamodb/
+
+# Archivo de puerto TernJS
+.tern-puerto
+
+# Almacena versiones de VSCode utilizadas para probar extensiones de VSCode
+Prueba .vscode
+
+# hilo v2
+.hilo/caché
+.hilo/desenchufado
+.yarn/build-state.yml
+.yarn/estado-de-instalación.gz
+.pnp.*
+
+### Parche de nodo ###
+# Directorios Webpack sin servidor
+.paquete web/
+
+# Caché de estilo opcional
+
+# SvelteKit compilación / generación de salida
+.kit esbelto
+
+# Fin de https://www.toptal.com/developers/gitignore/api/linux,node
